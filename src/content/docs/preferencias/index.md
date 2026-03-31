@@ -5,6 +5,16 @@ description: Configurações do sistema Despensinha ERP.
 
 O módulo de **Preferências** centraliza todas as configurações do sistema, organizadas por categoria. Acesse em **Preferências** no menu lateral.
 
+## Configurações Essenciais (Primeiro Acesso)
+
+Antes de iniciar as operações, configure obrigatoriamente:
+
+1. **Comunidade** — dados fiscais da empresa (CNPJ, regime tributário, endereço fiscal)
+2. **Certificado Digital** — obrigatório para emissão de NF-e e NFC-e
+3. **Armazém** — ao menos um armazém para controle de estoque
+4. **Cenário Tributário** — regras de impostos para os produtos comercializados
+5. **Conta Financeira** — ao menos um caixa ou conta bancária para o módulo financeiro
+
 ## Configurações Fiscais
 
 | Configuração | Descrição |

@@ -23,6 +23,14 @@ Acesse **Relatórios → Suprimentos** para visualizar:
 - Compras por fornecedor e produto
 - Perdas e ajustes de inventário
 
+## Relatórios Financeiros
+
+Acesse **Relatórios → Financeiro** para visualizar:
+- Contas a pagar por período e fornecedor
+- Contas a receber por período e cliente
+- Fluxo de caixa realizado vs. projetado
+- Análise de receita e despesa por categoria
+
 ## Exportação
 
 Todos os relatórios podem ser exportados em:

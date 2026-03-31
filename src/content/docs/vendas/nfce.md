@@ -17,6 +17,10 @@ A **NFC-e** é o cupom fiscal eletrônico emitido nas vendas para consumidor fin
 
 NFC-e pode ser cancelada em até **30 minutos** após a emissão. Após esse prazo, é necessário emitir uma NF-e de devolução.
 
+:::note
+O prazo de cancelamento de NFC-e (30 minutos) é diferente do prazo da NF-e (24 horas). Para mais detalhes, consulte a seção [FAQ — Fiscal](/faq/#fiscal).
+:::
+
 ## Consulta
 
 Acesse **Vendas → NFC-e** para listar, filtrar por período, PDV ou status, e baixar os XMLs emitidos.
