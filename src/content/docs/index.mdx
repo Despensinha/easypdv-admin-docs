@@ -1,0 +1,34 @@
+---
+title: Despensinha ERP - Docs
+description: Documentação completa do sistema ERP Despensinha.
+template: splash
+hero:
+  tagline: Documentação completa do sistema de gestão empresarial Despensinha ERP.
+  actions:
+    - text: Começar
+      link: /introducao/
+      icon: right-arrow
+    - text: Cadastros
+      link: /cadastros/
+      icon: open-book
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Explore a documentação
+
+<CardGrid stagger>
+  <Card title="Cadastros" icon="puzzle">
+    Gerencie clientes, fornecedores, funcionários, comunidades e pontos de venda.
+  </Card>
+  <Card title="Vendas" icon="document">
+    Pedidos de venda, emissão de NF-e e NFC-e, cupons e descontos.
+  </Card>
+  <Card title="Suprimentos" icon="setting">
+    Pedidos de compra, recebimento de NF-e, controle de estoque e inventário.
+  </Card>
+  <Card title="Financeiro" icon="information">
+    Contas a pagar e receber, fluxo de caixa e gestão financeira.
+  </Card>
+</CardGrid>
