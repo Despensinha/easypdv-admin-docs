@@ -3,7 +3,7 @@ title: Cadastros
 description: Visão geral do módulo de cadastros do Despensinha ERP.
 ---
 
-O módulo de **Cadastros** centraliza o gerenciamento de todas as entidades do sistema: clientes, fornecedores, funcionários, comunidades e pontos de venda.
+O módulo de **Cadastros** centraliza o gerenciamento de todas as entidades do sistema: clientes, fornecedores, funcionários, comunidades, pontos de venda, listas de preço e convites de workspace.
 
 ## Seções
 
@@ -14,3 +14,5 @@ O módulo de **Cadastros** centraliza o gerenciamento de todas as entidades do s
 | [Funcionários](/cadastros/funcionarios/) | Cadastro de funcionários e atribuição de papéis |
 | [Comunidade](/cadastros/comunidade/) | Configuração das comunidades e organizações |
 | [Ponto de Venda](/cadastros/ponto-de-venda/) | Cadastro e configuração dos PDVs |
+| [Listas de Preço](/cadastros/listas-de-preco/) | Gestão de listas de preço |
+| [Convites](/cadastros/convites/) | Convites de workspace |

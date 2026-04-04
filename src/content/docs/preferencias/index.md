@@ -41,12 +41,32 @@ Antes de iniciar as operações, configure obrigatoriamente:
 | Armazéns | Locais de armazenamento |
 | Unidades de Conversão | Conversão entre unidades de medida |
 
+## Configurações de Vendas
+
+| Configuração | Descrição |
+|-------------|-----------|
+| Métodos de Pagamento | Formas de pagamento aceitas no estabelecimento |
+| Métodos de Recebimento | Configuração de métodos de recebimento |
+| Vendas | Parâmetros gerais de vendas |
+
+## Configurações de Suprimentos
+
+| Configuração | Descrição |
+|-------------|-----------|
+| Suprimentos | Parâmetros gerais de suprimentos |
+
 ## Configurações Comerciais
 
 | Configuração | Descrição |
 |-------------|-----------|
 | Marcas | Marcas dos produtos |
 | Tags | Etiquetas para classificação |
+
+## Configurações de Cadastro
+
+| Configuração | Descrição |
+|-------------|-----------|
+| Cadastros | Parâmetros de cadastro de entidades |
 
 ## Configurações do Sistema
 
