@@ -1,0 +1,24 @@
+{
+  "repoType": "user",
+  "mappings": [
+    { "erpDir": "src/app/pages/finance/", "docSection": "latest/financeiro/", "description": "Financial module pages" },
+    { "erpDir": "src/app/pages/catalog/", "docSection": "latest/cadastros/", "description": "Catalog pages" },
+    { "erpDir": "src/app/pages/sales/", "docSection": "latest/vendas/", "description": "Sales module" },
+    { "erpDir": "src/app/pages/supply/", "docSection": "latest/suprimentos/", "description": "Supply chain" },
+    { "erpDir": "src/app/pages/registrations/", "docSection": "latest/cadastros/", "description": "Registration pages" },
+    { "erpDir": "src/app/pages/reports/", "docSection": "latest/relatorios/", "description": "Reports" },
+    { "erpDir": "src/app/pages/home/", "docSection": "latest/dashboard/", "description": "Dashboard/home" },
+    { "erpDir": "src/app/pages/accountant-space/", "docSection": "latest/espaco-contador/", "description": "Accountant space" },
+    { "erpDir": "src/app/pages/manager-space/", "docSection": "latest/espaco-gestor/", "description": "Manager space" },
+    { "erpDir": "src/app/pages/preferences/", "docSection": "latest/preferencias/", "description": "Preferences" },
+    { "erpDir": "src/app/pages/notifications/", "docSection": "latest/notificacoes/", "description": "Notifications" },
+    { "erpDir": "src/app/pages/file-manager/", "docSection": "latest/gerenciador-de-arquivos/", "description": "File manager" },
+    { "erpDir": "src/app/pages/setup/", "docSection": null, "description": "Setup - no direct user doc mapping" },
+    { "erpDir": "src/app/pages/subscription/", "docSection": null, "description": "Subscription - no direct user doc mapping" },
+    { "erpDir": "src/app/pages/layout-builder/", "docSection": null, "description": "Layout builder - no direct user doc mapping" },
+    { "erpDir": "src/app/modules/", "docSection": null, "description": "Shared modules - no direct user doc mapping" },
+    { "erpDir": "src/shared/", "docSection": null, "description": "Shared utilities - no direct user doc mapping" },
+    { "erpDir": "src/api/", "docSection": null, "description": "API layer - no direct user doc mapping" },
+    { "erpDir": "src/_metronic/", "docSection": null, "description": "Metronic template - always skip" }
+  ]
+}
