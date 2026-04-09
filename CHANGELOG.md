@@ -1,3 +1,17 @@
+# [1.1.0](https://github.com/Despensinha/easypdv-admin-docs/compare/v1.0.0...v1.1.0) (2026-04-09)
+
+
+### Features
+
+* **06-02:** add receive-version workflow, snapshot script, and insertion marker ([73ca458](https://github.com/Despensinha/easypdv-admin-docs/commit/73ca458fa6645a4ed1e56bd57914301014897b76))
+* **07-01:** create AI provider interface, prompts, and factory with tests ([b166613](https://github.com/Despensinha/easypdv-admin-docs/commit/b1666130fa523e0d5d219789f64754ded85e46a8))
+* **07-01:** implement OpenAI provider with never-throw methods and install openai dependency ([6e2955b](https://github.com/Despensinha/easypdv-admin-docs/commit/6e2955bef9ec677843d96efedbfced47d67e8575))
+* **08-01:** create diff parser with unified diff state machine ([70f2d62](https://github.com/Despensinha/easypdv-admin-docs/commit/70f2d62691e1dcef585c27fdbca566fa1a1a6a35))
+* **08-01:** create page mapper with ERP-to-docs path resolution ([7346fc2](https://github.com/Despensinha/easypdv-admin-docs/commit/7346fc25ce9d455527d66962564fbd858f1f87a7))
+* **08-02:** create diff-classifier with preFilter and classifyDiffs ([2cbc76d](https://github.com/Despensinha/easypdv-admin-docs/commit/2cbc76d3f22a074c12a0ec13187cfcc1f25d45a7))
+* **08-02:** create generate-page-map.mjs setup script ([2e565b1](https://github.com/Despensinha/easypdv-admin-docs/commit/2e565b1eae2549c1ef108ef6727745c9c25e1381))
+* **08-02:** extend provider interface with classify method and buildClassifyPrompt ([64ca114](https://github.com/Despensinha/easypdv-admin-docs/commit/64ca1146e5d43ed13e145cce1da5ad2b02696e63))
+
 # 1.0.0 (2026-04-06)
 
 
