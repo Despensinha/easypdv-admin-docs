@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/Despensinha/easypdv-admin-docs/compare/v1.1.0...v1.2.0) (2026-04-10)
+
+
+### Features
+
+* **09-01:** content generation orchestrator with TDD ([01877b8](https://github.com/Despensinha/easypdv-admin-docs/commit/01877b89a0cd70c4376287d8ded9b40808817ec1))
+* **10-01:** replace receive-version.yml with complete AI pipeline workflow ([1654266](https://github.com/Despensinha/easypdv-admin-docs/commit/16542661ce5ab3b2a310b4532ea11dec7121a5a0))
+
 # [1.1.0](https://github.com/Despensinha/easypdv-admin-docs/compare/v1.0.0...v1.1.0) (2026-04-09)
 
 
