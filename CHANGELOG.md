@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/Despensinha/easypdv-admin-docs/compare/v1.2.0...v1.2.1) (2026-04-10)
+
+
+### Bug Fixes
+
+* **pipeline:** replace illegal return with process.exit in PR body builder ([7a1cfee](https://github.com/Despensinha/easypdv-admin-docs/commit/7a1cfeef3f3114da69fda7f19e5d4ec46703fab5))
+
 # [1.2.0](https://github.com/Despensinha/easypdv-admin-docs/compare/v1.1.0...v1.2.0) (2026-04-10)
 
 
