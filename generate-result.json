@@ -1,0 +1,34 @@
+{
+  "updated": [
+    {
+      "page": "latest/preferencias/",
+      "sourceFiles": [
+        "src/app/pages/preferences/tag-editor/components/TagCanvas.tsx",
+        "src/app/pages/preferences/tag-editor/core/_tagRenderer.ts",
+        "src/app/pages/preferences/tag-editor/core/_types.ts",
+        "src/app/pages/preferences/tag-editor/hooks/useTagPdfGenerator.ts",
+        "src/app/pages/preferences/tag-editor/modal/TagPreviewModal.tsx"
+      ]
+    },
+    {
+      "page": "latest/vendas/",
+      "sourceFiles": [
+        "src/app/pages/sales/planogram/PlanogramListPage.tsx",
+        "src/app/pages/sales/planogram/core/_consts.ts",
+        "src/app/pages/sales/planogram/core/_requests.ts",
+        "src/app/pages/sales/planogram/modal/PlanogramTagPrintModal.tsx"
+      ]
+    }
+  ],
+  "created": [
+    {
+      "page": "latest/modals/index.md",
+      "title": "modals",
+      "sourceFiles": [
+        "src/app/components/modals/TagPrintModal.tsx"
+      ]
+    }
+  ],
+  "failures": [],
+  "summary": "## Resumo das alterações\n\n### Páginas atualizadas com sucesso\n- `latest/preferencias/...`\n- `latest/vendas/...`\n- `latest/modals/index.md` (`modals`)\n\n### Páginas com falha\n- Nenhuma falha reportada."
+}
