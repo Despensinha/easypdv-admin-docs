@@ -1,0 +1,37 @@
+{
+  "updated": [
+    {
+      "page": "latest/cadastros/",
+      "sourceFiles": [
+        "src/app/pages/catalog/price-list/CreatePriceListPage.tsx",
+        "src/app/pages/catalog/price-list/PriceListListPage.tsx",
+        "src/app/pages/catalog/price-list/components/PriceListForm.tsx",
+        "src/app/pages/catalog/price-list/core/_columns.tsx",
+        "src/app/pages/catalog/price-list/core/_requests.ts"
+      ]
+    },
+    {
+      "page": "latest/notificacoes/",
+      "sourceFiles": [
+        "src/app/pages/notifications/NotificationsListPage.tsx",
+        "src/app/pages/notifications/core/_requests.ts"
+      ]
+    },
+    {
+      "page": "latest/preferencias/",
+      "sourceFiles": [
+        "src/app/pages/preferences/PreferencesWrapper.tsx"
+      ]
+    },
+    {
+      "page": "latest/suprimentos/",
+      "sourceFiles": [
+        "src/app/pages/supply/inventory-check/core/_requests.tsx",
+        "src/app/pages/supply/inventory-check/modal/InventoryCheckFinishModal.tsx"
+      ]
+    }
+  ],
+  "created": [],
+  "failures": [],
+  "summary": "## Resumo das atualizações\n\n### Páginas atualizadas com sucesso\n- `latest/cadastros/...`\n- `latest/notificacoes/...`\n- `latest/preferencias/...`\n- `latest/suprimentos/...`\n\n### Páginas com falha\n- Nenhuma falha reportada."
+}
