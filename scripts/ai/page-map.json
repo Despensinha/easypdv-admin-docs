@@ -19,6 +19,7 @@
     { "erpDir": "src/app/modules/", "docSection": null, "description": "Shared modules - no direct user doc mapping" },
     { "erpDir": "src/shared/", "docSection": null, "description": "Shared utilities - no direct user doc mapping" },
     { "erpDir": "src/api/", "docSection": null, "description": "API layer - no direct user doc mapping" },
-    { "erpDir": "src/_metronic/", "docSection": null, "description": "Metronic template - always skip" }
+    { "erpDir": "src/_metronic/", "docSection": null, "description": "Metronic template - always skip" },
+    { "erpDir": "src/", "docSection": null, "description": "Catch-all - unmapped src dirs are skipped" }
   ]
 }
