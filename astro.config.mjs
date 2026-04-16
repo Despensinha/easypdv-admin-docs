@@ -48,6 +48,11 @@ export default defineConfig({
           collapsed: true,
           items: versionSidebar('v1-27-1'),
         },
+                {
+          label: 'v97-0-0-test-after',
+          collapsed: true,
+          items: versionSidebar('v97-0-0-test-after'),
+        },
         // SNAPSHOT_INSERT_ABOVE
       ],
     }),
