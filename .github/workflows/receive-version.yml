@@ -46,6 +46,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # The set +e / exit_code capture is load-bearing: subsequent steps
+      # (Build PR body FAILED variant) rely on this step NOT failing the job
+      # so they still run on AI errors. Keep the pattern if refactoring.
       - name: Generate AI content
         id: generate
         run: |
@@ -95,7 +98,7 @@ jobs:
 
       - name: Build PR body
         env:
-          HAS_CHANGES: ${{ steps.commit_ai.outputs.has_changes }}
+          HAS_CHANGES: ${{ steps.commit_ai.outputs.has_changes || 'false' }}
           EXIT_CODE: ${{ steps.generate.outputs.exit_code }}
           CLEAN_VERSION: ${{ env.CLEAN_VERSION }}
         run: |
@@ -191,7 +194,7 @@ jobs:
       - name: Push and create PR
         if: steps.generate.outputs.exit_code == '0'
         run: |
-          git push origin "$BRANCH" --force
+          git push origin "$BRANCH" --force-with-lease
           gh pr create --title "docs(ai): update v${CLEAN_VERSION}" --body-file pr-body.md --base main || echo "PR already exists"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
