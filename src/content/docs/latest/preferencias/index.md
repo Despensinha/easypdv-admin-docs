@@ -11,7 +11,7 @@ O módulo de **Preferências** centraliza todas as configurações do sistema, o
 
 Antes de iniciar as operações, configure obrigatoriamente:
 
-1. **Comunidade** — dados fiscais da empresa (CNPJ, regime tributário, endereço fiscal)
+1. **Comunidade** — dados fiscais da empresa
 2. **Certificado Digital** — obrigatório para emissão de NF-e e NFC-e
 3. **Armazém** — ao menos um armazém para controle de estoque
 4. **Cenário Tributário** — regras de impostos para os produtos comercializados
@@ -76,3 +76,29 @@ Antes de iniciar as operações, configure obrigatoriamente:
 |-------------|-----------|
 | Papéis de Usuário | Definição de permissões por perfil |
 | Provedores de Comunicação | Configuração de e-mail e SMS |
+
+## Configurações da Empresa
+
+Na configuração da empresa, agora é possível informar o **tipo de pessoa**:
+
+| Campo | Descrição |
+|------|-----------|
+| Tipo de pessoa | Define se a empresa é **Pessoa Jurídica** ou **Pessoa Física** |
+| CNPJ | Obrigatório quando o tipo de pessoa for **Pessoa Jurídica** |
+| CPF | Obrigatório quando o tipo de pessoa for **Pessoa Física** |
+
+Ao escolher o tipo de pessoa, o sistema exibe o campo correspondente:
+
+- **Pessoa Jurídica**: mostra o campo **CNPJ**
+- **Pessoa Física**: mostra o campo **CPF**
+
+## Configuração de NF-e
+
+Na tela de reinicialização da sequência numérica da NF-e, os campos enviados ao sistema foram ajustados:
+
+| Campo | Descrição |
+|------|-----------|
+| `direction_type` | Tipo de direção da sequência a ser reiniciada |
+| `initial_number` | Número inicial da nova sequência |
+
+Esses dados são usados ao redefinir a numeração inicial dos documentos fiscais.

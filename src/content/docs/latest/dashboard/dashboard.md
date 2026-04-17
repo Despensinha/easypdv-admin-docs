@@ -18,7 +18,7 @@ O Dashboard possui quatro abas na parte superior da pagina. Clique no nome da ab
 | **Financeiro** | Visao financeira com fluxo de caixa, lucro e contas |
 | **Mercado** | Funcionalidade em desenvolvimento, sera disponibilizada em breve |
 
-> O acesso a cada aba depende das permissoes do usuario. Caso uma aba nao apareca, entre em contato com o administrador do sistema.
+> O acesso ao Dashboard e as suas abas depende das permissoes do usuario. Caso o menu nao apareca ou a pagina fique indisponivel, entre em contato com o administrador do sistema.
 
 ## Aba Vendas
 
@@ -27,12 +27,22 @@ A aba de Vendas exibe os principais indicadores de desempenho comercial do negoc
 | Indicador | Descricao |
 |-----------|-----------|
 | Cartoes informativos | Resumo geral com metricas de vendas do periodo |
-| Produtos mais vendidos | Ranking dos produtos com maior volume de vendas |
-| Total de vendas | Grafico com a evolucao do total de vendas ao longo do tempo |
-| Ticket medio | Grafico com a evolucao do valor medio por venda |
+| Produtos mais vendidos | Ranking dos produtos com maior volume de vendas, com filtro por periodo |
+| Total de vendas | Grafico com a evolucao do total de vendas ao longo do tempo, com filtro por periodo |
+| Ticket medio | Grafico com a evolucao do valor medio por venda, com filtro por periodo |
 | Categorias mais vendidas | Ranking das categorias de produtos mais vendidas |
 | Horarios de pico | Grafico mostrando os horarios com maior volume de vendas |
 | Formas de pagamento | Distribuicao das vendas por forma de pagamento utilizada |
+
+### Ajustes de exibicao
+
+Alguns cards da aba de Vendas foram ajustados para melhorar a visualizacao em telas menores.
+
+| Recurso | Ajuste realizado |
+|---------|------------------|
+| Ticket medio | Filtros e valores agora se organizam melhor em telas pequenas |
+| Total das vendas | Filtros e valores agora se adaptam melhor a diferentes larguras de tela |
+| Produtos mais vendidos | A tabela foi envolvida em area responsiva para facilitar a leitura em dispositivos menores |
 
 ## Aba Operacao
 
@@ -45,6 +55,14 @@ A aba de Operacao apresenta indicadores voltados para a gestao operacional do ne
 | Destaques operacionais | Resumo dos principais eventos operacionais |
 | Ultimas tarefas de estoque | Historico das tarefas de estoque mais recentes |
 | Perda de produtos | Indicadores de perdas e desperdicio de produtos |
+
+### Ajustes de exibicao
+
+Alguns cards da aba de Operacao tambem receberam ajustes para melhor uso em telas menores.
+
+| Recurso | Ajuste realizado |
+|---------|------------------|
+| Disponibilidade de PDVs | Informacoes agora se reorganizam melhor em celulares e tablets |
 
 ## Aba Financeiro
 
