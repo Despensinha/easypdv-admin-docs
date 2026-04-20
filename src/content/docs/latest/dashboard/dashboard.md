@@ -20,6 +20,18 @@ O Dashboard possui quatro abas na parte superior da pagina. Clique no nome da ab
 
 > O acesso a cada aba depende das permissoes do usuario. Caso uma aba nao apareca, entre em contato com o administrador do sistema.
 
+## Aviso em destaque
+
+Na area superior do Dashboard, o sistema exibe um aviso em destaque com conteudo promocional ou informativo. Esse espaco apresenta uma imagem ou video de apoio, uma mensagem curta e um botao de acesso rapido.
+
+| Campo | Descricao |
+|-------|-----------|
+| Midia de destaque | Exibe um video na faixa superior do Dashboard |
+| Mensagem | Texto promocional ou informativo em destaque |
+| Botao de acesso | Atalho para a lista de produtos |
+
+O botao **Ver meus produtos** leva para a lista de produtos cadastrados.
+
 ## Aba Vendas
 
 A aba de Vendas exibe os principais indicadores de desempenho comercial do negocio.

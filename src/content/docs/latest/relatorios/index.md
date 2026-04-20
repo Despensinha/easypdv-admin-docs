@@ -16,6 +16,7 @@ Acesse **Relatórios → Vendas** para visualizar:
 - Vendas por ponto de venda e operador
 - Ticket médio e itens por venda
 - Métodos de pagamento utilizados
+- Produtos não encontrados na leitura de código de barras
 
 ## Relatórios de Suprimentos
 
