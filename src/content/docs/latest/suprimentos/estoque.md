@@ -28,3 +28,20 @@ O sistema suporta múltiplos armazéns. Cada PDV é vinculado a um armazém espe
 ## Alertas de Estoque Mínimo
 
 Produtos com estoque abaixo do mínimo configurado são exibidos no dashboard e na listagem do estoque com alerta visual.
+
+## Conferência de Estoque
+
+A tela de conferência de estoque lista os itens com os campos de situação, quantidade atual e quantidade conferida.
+
+| Campo | Descrição |
+|------|-----------|
+| Situação | Indica o status da conferência do item. |
+| QTD. ATUAL | Mostra a quantidade atual registrada no estoque. |
+| QTD. CONFERIDA | Mostra a quantidade informada na conferência. |
+
+Ao finalizar a conferência, o sistema valida os itens e conclui o processo.
+
+| Ação | Descrição |
+|------|-----------|
+| Finalizar conferência | Conclui a conferência de estoque. |
+| Cancelar | Fecha a janela sem concluir a operação. |

@@ -64,6 +64,16 @@ Antes de iniciar as operações, configure obrigatoriamente:
 | Marcas | Marcas dos produtos |
 | Tags | Etiquetas para classificação |
 
+### Editor de tags
+
+O editor de tags permite criar e imprimir etiquetas a partir de modelos com texto e código de barras.
+
+Na visualização da etiqueta, o campo **Código** exibe o valor **GTIN/EAN** do produto.
+
+Ao gerar o PDF, o sistema valida o GTIN/EAN somente quando o modelo de etiqueta contém um elemento de código de barras. Modelos que usam apenas texto não exigem validação desse campo.
+
+Quando a etiqueta tem código de barras, o sistema usa o formato configurado no elemento do modelo. Se houver produtos inválidos, o PDF é gerado com os produtos válidos e a lista de erros é retornada para conferência. Se nenhum produto estiver válido, a impressão é bloqueada.
+
 ## Configurações de Cadastro
 
 | Configuração | Descrição |
